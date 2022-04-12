@@ -1,0 +1,6 @@
+/**{background-color: blue;}*/
+/* Esto es un comentario CSS*/
+body{ background-color: aqua;
+}
+/* aplicar estilos por id*/
+#idSection{background-color: blueviolet;}

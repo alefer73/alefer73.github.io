@@ -12,11 +12,52 @@
             <h1>
                 Clase 6
             </h1>
-            <form action="AlguienDeJava.html">
-                <input type="file" name="dni frente">
+            <fieldset>
+                <legend >"Alta Usuario"</legend>
+            <form action="AltaUsuario.html" method="Post">
+                <input type="file" name="dni frente" required>
                 
+                <input type="url"  name="url" required placeholder="ej http://algo">
+                <input type="text" name="nombre" required placeholder="Pepe Argento">
+                <input type="text"  required placeholder="numeros del 0 al 9" pattern="[0-9]">
+                <br>
+                <textarea  name="Info Extra" cols="50" row="20">
+                   
+                </textarea>
+                <br>
+                <select name="selectmultiple" multiple required>
+                    <optgroup label="Animales">
+                        <option>Leon</option>
+                        <option>Elefante</option>
+                    </optgroup>
+                    <optgroup label="Colores">
+                        <option>Rojo</option>
+                        <option>Verde</option>
+                        <option>Azul</option>
+                    </optgroup>
+
+                </select>
+
+                <br>
+                <input list="Browsers" name="dataBrowser">
+                <datalist id="Browsers">
+                    <option>EDGE</option>
+                    <option>Chrome</option>
+                    <option>Firefox</option>
+                    <option>Opera</option>
+                </datalist>
+
+                <br>
+                <label for ="buscar" >Tipo Search</label>
+                <input type="search" name="buscar"/>
+                <br>
+                <Label for="buscarTexto">Tipo Text  </Label>
+                <input type="text"  name="buscarTexto"/>
+                <br>
                 <input type="submit" Value="Enviar">
+                <input type="hidden" value="valoroculto" name="CampoHidden">
             </form>
+        </fieldset>
         </section>
     </main>
     
