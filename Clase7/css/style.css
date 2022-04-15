@@ -2,5 +2,13 @@
 /* Esto es un comentario CSS*/
 body{ background-color: aqua;
 }
-/* aplicar estilos por id*/
-#idSection{background-color: blueviolet;}
+
+/* Estilos por id*. Se usa # y el identificador */
+#idSection{background-color: rgb(226, 43, 73);}
+#nav{background-color: beige}
+
+/* Estilos por clases. Se usa . y el identificador */
+.links{color:deeppink}
+
+/*selector etiqueta*/
+a{text-decoration: none;}
